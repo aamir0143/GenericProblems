@@ -19,8 +19,11 @@ namespace GenericProblems
             {
                 case 1:
                     int x = 30, y = 20, z = 10;
+                    double p = 15.33, q = 45.77, r = 77.88;
                     if (Generic.FindMaxValueOutOfThree(x, y, z) != 0)
-                    Console.WriteLine("\t{0} is maximum out of {1},{2},{3}", Generic.FindMaxValueOutOfThree(x, y, z), x, y, z);
+                        Console.WriteLine("\t{0} is maximum out of {1},{2},{3}", Generic.FindMaxValueOutOfThree(x, y, z), x, y, z);
+                    if (Generic.FindMaxValueOutOfThree(p, q, r) != 0)
+                        Console.WriteLine("\t{0} is maximum out of {1},{2},{3}", Generic.FindMaxValueOutOfThree(p, q, r), p, q, r);
                     break;
                 case 2:
                 default:
